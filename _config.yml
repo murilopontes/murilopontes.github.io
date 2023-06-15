@@ -16,5 +16,5 @@ collections:
   pages:
     output: true
 
-head:
-  - "<meta name=\"google-site-verification\" content=\"aPz1VWsiEi5r-yqty5513RmlJEuvBF6KrcwZw076Owg\">"
+
+google_site_verification: "aPz1VWsiEi5r-yqty5513RmlJEuvBF6KrcwZw076Owg"
