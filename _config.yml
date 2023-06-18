@@ -12,6 +12,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
       
 url: "https://murilopontes.github.io"
 
@@ -22,3 +24,21 @@ collections:
 
 
 google_site_verification: "aPz1VWsiEi5r-yqty5513RmlJEuvBF6KrcwZw076Owg"
+
+seo:
+  social:
+    - name: twitter
+      property: twitter:site
+      content: "@murilorpontes"
+#    - name: og:image
+#      property: og:image
+#      content: /path/to/your/image.png
+
+permalink: "/:categories/:year/:month/:day/:title/"
+
+paginate: 10
+paginate_path: "/page:num/"
+
+
+
+
