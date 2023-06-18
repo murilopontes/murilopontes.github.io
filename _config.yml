@@ -12,6 +12,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+      
+url: "https://murilopontes.github.io"
+
 
 collections:
   pages:
